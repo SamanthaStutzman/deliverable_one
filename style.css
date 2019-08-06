@@ -1,0 +1,92 @@
+* {
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0px;
+}
+html {
+    background-color: #F0ECEE;
+}
+@media (max-width: 768px){
+    .button {
+        margin-top: 15px;
+    }
+}
+@media (min-width: 768px) {
+    html {      
+        background-image: url(bulldog.jpg);
+        background-repeat: no-repeat;
+        background-size: 100vw;
+    }
+    .navTabs {
+        position: fixed;
+        top: 20px;
+        right: 30px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 10px;
+    }
+    body {
+        padding-top: 15px;
+        padding-left: 50px;
+        width: 35vw;
+    }
+    li {
+        padding: 10px;
+        font-weight: 300;
+    }
+    .space {
+        width: 200px;
+    }
+    .h2{
+        margin-top: 120px;
+    }
+}
+a {
+    text-decoration: none;
+    color: #88898B;
+}
+h1 {
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.h2 {
+    font-weight: 600;
+    font-size: 25px;
+}
+.greyText {
+    color: #88898B;
+}
+.redText, a:hover {
+    color: #FF4850;
+}
+ul {
+    list-style-type: none;
+    padding: 0px;
+    padding-bottom: 15px;
+}
+.button {
+    background-color: #FF4850;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 300;
+    padding: 10px;
+    display: block;
+}
+.button:hover {
+    background-color: #CCC;
+    color: #FF4850;
+}
+li {
+    font-weight: 300;
+}
+.space {
+    margin-top: 20px;
+}
